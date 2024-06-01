@@ -1,0 +1,49 @@
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qr-image {
+  padding: 5px;
+}
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #3498db;
+  font-size: 15px;
+  font-weight: 500;
+}
+input[type="text"] {
+  padding: 12px;
+  margin-bottom: 28px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #3498db;
+}
+button {
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.Generate-btn {
+  background-color: #3498db;
+  cursor: not-allowed;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Download-btn {
+  background-color: #27ae60;
+}
+.Download-btn:hover {
+  background-color: #219a52;
+}
